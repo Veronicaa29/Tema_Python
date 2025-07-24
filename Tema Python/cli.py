@@ -23,7 +23,7 @@ def pow(base, exp):
     def worker():
         result = power(data.base, data.exp)
         click.echo(f"Rezultatul este: {result}")
-        save_request("power", data.json(), str(result))
+        save_request("power", data.model_dump_json(), str(result))
     t = threading.Thread(target=worker)
     t.start()
     t.join()
@@ -37,7 +37,7 @@ def factorial_cmd(number):
     def worker():
         result = factorial(data.number)
         click.echo(f"Factorialul este: {result}")
-        save_request("factorial", data.json(), str(result))
+        save_request("factorial", data.model_dump_json(), str(result))
     t = threading.Thread(target=worker)
     t.start()
     t.join()
@@ -51,7 +51,7 @@ def fib(number):
     def worker():
         result = fibonacci(data.number)
         click.echo(f"Numărul Fibonacci este: {result}")
-        save_request("fibonacci", data.json(), str(result))
+        save_request("fibonacci", data.model_dump_json(), str(result))
     t = threading.Thread(target=worker)
     t.start()
     t.join()
