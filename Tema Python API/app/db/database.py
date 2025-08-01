@@ -1,8 +1,8 @@
 import sqlite3
 from datetime import datetime
-import os
 
 DB_FILE = "operations.db"
+
 
 def init_db():
     with sqlite3.connect(DB_FILE) as conn:
@@ -17,6 +17,7 @@ def init_db():
             )
         ''')
         conn.commit()
+
 
 def save_request(operation: str, input_data: str, result: str):
     with sqlite3.connect(DB_FILE) as conn:
