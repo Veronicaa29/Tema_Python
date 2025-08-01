@@ -2,7 +2,7 @@
 # Tema_Python
 
 ## Description
-This repository contains two related projects:
+This repository contains two related projects and also includes the folder `Optional Homework`, which features exercises from the Python course available on Confluence titled: **Introduction to Python - 2025**.
 
 ### 1. Tema Python CLI
 This is a Command Line Interface (CLI) application for performing basic mathematical operations and saving the results in a SQLite database.
@@ -67,6 +67,14 @@ This is a RESTful API implementation of the same mathematical operations, using 
 - `POST /math/fibonacci` — Calculate Fibonacci number
 - `POST /math/power` — Calculate power
 - `GET /math/history` — Get the latest 20 operations
+
+---
+
+
+---
+
+## Optional Homerok
+This repository also contains the folder `Optional Homework`, which includes exercises from the Python course available on Confluence titled: **Introduction to Python - 2025**.
 
 ---
 
