@@ -16,7 +16,7 @@ This is a Command Line Interface (CLI) application for performing basic mathemat
 
 #### How to run the CLI project
 
-1. Install dependencies (Python 3.8+):
+1. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
@@ -51,7 +51,7 @@ This is a RESTful API implementation of the same mathematical operations, using 
 
 #### How to run the API project
 
-1. Install dependencies (Python 3.8+):
+1. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
@@ -74,4 +74,3 @@ This is a RESTful API implementation of the same mathematical operations, using 
 - All CLI operations are executed in separate threads so the CLI interface is not blocked.
 - Input and output structure is validated with Pydantic.
 - The database used is `operations.db` (SQLite).
-- The API project is designed for extensibility and follows microservice best practices.
