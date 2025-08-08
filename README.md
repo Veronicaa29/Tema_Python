@@ -4,7 +4,7 @@
 ## Description
 This repository contains two related projects and also includes the folder `Optional Homework`, which features exercises from the Python course available on Confluence titled: **Introduction to Python - 2025**.
 
-### 1. Tema Python CLI
+### 1. Tema Python
 This is a Command Line Interface (CLI) application for performing basic mathematical operations and saving the results in a SQLite database.
 
 #### Main Features (CLI)
